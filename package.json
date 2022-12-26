@@ -17,7 +17,9 @@
     "url": "https://github.com/vladyslav-rohalov/goit-js-hw-09/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "parcel": "^2.8.1",
