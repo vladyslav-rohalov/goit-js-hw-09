@@ -16,6 +16,8 @@ function changeColor() {
   refs.body.style.backgroundColor = getRandomHexColor();
 }
 
+let timerId = null;
+
 function onStartClick() {
   timerId = setInterval(changeColor, 1000);
   refs.btnStart.setAttribute('disabled', 'disabled');
@@ -29,5 +31,3 @@ function onStopClick() {
   refs.btnStart.removeAttribute('disabled');
   refs.btnStop.setAttribute('disabled', 'disabled');
 }
-
-console.log('!!!');
